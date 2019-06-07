@@ -1,2 +1,0 @@
-# Raindery.github.io
-Тестовый
