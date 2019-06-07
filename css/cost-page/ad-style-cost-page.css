@@ -1,0 +1,314 @@
+@media(min-width:4000px){
+	.label{
+		margin-top: 600px;
+		width:1200px;
+	}
+
+	hr{
+		width:900px;
+	}
+
+	#groups .card{
+		width:800px;
+		height:1000px;
+		margin: 500px auto;	
+	}
+
+	.card h2{
+		font-size: 80px;
+		margin: 5% 0;
+	}
+
+	.card hr{
+		width: 60%;
+		margin-top: 0px;
+	}
+
+	.card p{
+		font-size: 55px;
+		margin: 5% 0;
+	}
+
+	.card h3{
+		font-size: 100px;
+		margin-top: 5%;	
+	}
+
+	.card .request-button{
+		width: 50%;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		margin-top:4%;
+		font-size: 44px;	
+	}
+}
+
+@media(min-width: 3000px) and (max-width:3999px){
+	.label{
+		margin-top: 600px;
+		width:1000px;
+	}
+
+	hr{
+		width:800px;
+	}
+
+	#groups .card{
+		width:800px;
+		height:1000px;
+		margin: 400px auto;	
+	}
+
+	.card h2{
+		font-size: 80px;
+		margin: 5% 0;
+	}
+
+	.card hr{
+		width: 60%;
+		margin-top: 0px;
+	}
+
+	.card p{
+		font-size: 55px;
+		margin: 5% 0;
+	}
+
+	.card h3{
+		font-size: 100px;
+		margin-top: 5%;	
+	}
+
+	.card .request-button{
+		width: 50%;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		margin-top:4%;
+		font-size: 44px;	
+	}
+}
+
+@media(min-width: 2000px) and (max-width: 2999px){
+	.label{
+		margin-top: 400px;
+		width:800px;
+	}
+
+	hr{
+		width:700px;
+	}
+
+	#groups .card{
+		width:700px;
+		height:800px;
+		margin: 350px auto;	
+	}
+
+	.card h2{
+		font-size: 65px;
+		margin: 5% 0;
+	}
+
+	.card hr{
+		width: 60%;
+		margin-top: 0px;
+	}
+
+	.card p{
+		font-size: 42px;
+		margin: 5% 0;
+	}
+
+	.card h3{
+		font-size: 85px;
+		margin-top: 5%;	
+	}
+
+	.card .request-button{
+		width: 50%;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		margin-top:4%;
+		font-size: 35px;	
+	}
+}
+
+@media (min-width: 1800px) and (max-width: 1999px){
+	.label{
+		margin-top: 250px;
+		width:550px;
+	}
+
+	hr{
+		width:440px;
+	}
+
+	#groups .card{
+		width:400px;
+		height:500px;
+		margin: 200px auto;	
+	}
+
+	.card h2{
+		font-size: 40px;
+		margin: 5% 0;
+	}
+
+	.card hr{
+		width: 60%;
+		margin-top: 0px;
+	}
+
+	.card p{
+		font-size: 28px;
+		margin: 5% 0;
+	}
+
+	.card h3{
+		font-size: 50px;
+		margin-top: 5%;	
+	}
+
+	.card .request-button{
+		width: 50%;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		margin-top:4%;
+		font-size: 25px;	
+	}
+	
+} 
+
+@media (min-width: 1600px) and (max-width:1799px){
+	
+}
+
+@media (min-width: 1200px) and (max-width:1599px){
+	.label{
+		
+	}
+
+	#groups .card{
+		margin: 200px auto;	
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.label{
+		margin-top: 250px;
+		width:380px;
+	}
+
+	hr{
+		width:320px;
+	}
+
+	#groups .card{
+		width:250px;
+		height:300px;
+		margin: 130px auto;	
+	}
+
+	.card h2{
+		font-size: 25px;
+		margin: 5% 0;
+	}
+
+	.card hr{
+		width: 60%;
+		margin-top: 0px;
+	}
+
+	.card p{
+		font-size: 16px;
+		margin: 5% 0;
+	}
+
+	.card h3{
+		font-size: 35px;
+		margin-top: 5%;	
+	}
+
+	.card .request-button{
+		width: 50%;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		margin-top:4%;
+		font-size: 14px;	
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.label{
+		margin-top: 150px;
+		width:300px;
+	}
+
+	hr{
+		width:250px;
+	}
+
+	#groups{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	#groups .card{
+		margin: 0 auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px){
+	.label{
+		margin-top: 100px;
+		width:250px;
+	}
+
+	hr{
+		width:210px;
+	}
+
+	#groups{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	#groups .card{
+		margin: 50px auto;
+	}		
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+	.label{
+		margin-top: 100px;
+		width:380px;
+	}
+
+	hr{
+		width:320px;
+	}
+
+	#groups{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	#groups .card{
+		margin: 0 auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+}

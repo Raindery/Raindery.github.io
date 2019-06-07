@@ -1,0 +1,67 @@
+.label{
+	text-transform: none;
+	width: 370px;
+	margin-top: 200px;
+}
+
+hr{
+	width:250px;
+}
+
+.clear{
+	clear: both;
+}
+
+#comments{
+	display: inline-block;
+	margin: 50px 0;
+	height: auto;
+	width:100%;
+	color:white;
+	clear: both;
+}
+
+.comment-item{
+	padding: 2%;
+	margin: 50px auto;
+	min-height: 150px;
+	height:150px;
+	width:800px;
+	border: 4px solid #a91d11;
+}
+
+.comment-item .icon{
+	float:left;
+	width:10%;
+	margin-right: 5%;
+	height: 100%;
+	background-image: url(../../img/comment-item.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.comment-item .text{
+	float:left;
+	width:85%;
+	height: 100%;
+}
+
+.comment-item .text .name{
+	font-size: 22px;
+	height: auto;
+	width: 100%;
+}
+
+.comment-item .text .name span{
+	color:#a91d11;
+}
+
+.comment-item .text .comment-text{
+	height: auto;
+	width: 100%;
+	padding: 2% 0;
+	font-size: 20px;
+
+}
+

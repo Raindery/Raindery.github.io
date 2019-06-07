@@ -1,0 +1,324 @@
+@media(min-width:4000px){
+	.label{
+		width: 1000px;
+		margin-top: 600px;
+
+	}
+
+	hr{
+		width:700px;
+	}
+
+	#autopark-list{
+		margin-top: 300px;
+		margin-bottom: 300px;
+		padding-left: 220px;
+		padding-right: 220px;
+	}
+
+	.item{
+		width:520px;
+		height:500px;
+		margin:60px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 45px;
+		padding-top: 4%;
+		height:20%;
+	}
+}
+
+@media(min-width: 3000px) and (max-width:3999px){
+	.label{
+		width: 1000px;
+		margin-top: 600px;
+
+	}
+
+	hr{
+		width:700px;
+	}
+
+	#autopark-list{
+		margin-top: 200px;
+		margin-bottom: 200px;
+		padding-left: 290px;
+		padding-right: 290px;
+	}
+
+	.item{
+		width:520px;
+		height:500px;
+		margin:60px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 45px;
+		padding-top: 4%;
+		height:20%;
+	}
+}
+
+@media(min-width: 2000px) and (max-width: 2999px){
+	.label{
+		width: 800px;
+		margin-top: 400px;
+
+	}
+
+	hr{
+		width:650px;
+	}
+
+	#autopark-list{
+		margin-top: 200px;
+		margin-bottom: 200px;
+		padding-left: 205px;
+		padding-right: 205px;
+	}
+
+	.item{
+		width:450px;
+		height:400px;
+		margin:40px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 36px;
+		padding-top: 4%;
+		height:20%;
+	}
+}
+
+@media (min-width: 1800px) and (max-width: 1999px){
+	.label{
+		width: 600px;
+		margin-top: 250px;
+
+	}
+
+	hr{
+		width:480px;
+	}
+
+	#autopark-list{
+		margin-top: 150px;
+		margin-bottom: 150px;
+		padding-left: 180px;
+		padding-right: 180px;
+	}
+
+	.item{
+		width:320px;
+		height:300px;
+		margin:30px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 26px;
+		padding-top: 4%;
+		height:20%;
+	}
+	
+} 
+
+@media (min-width: 1600px) and (max-width:1799px){
+	
+}
+
+@media (min-width: 1200px) and (max-width:1599px){
+	.label{
+		width: 400px;
+		margin-top: 200px;
+
+	}
+
+	hr{
+		width:300px;
+	}
+
+	#autopark-list{
+		margin-top: 120px;
+		margin-bottom: 120px;
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+	.item{
+		width:280px;
+		height:260px;
+		margin:20px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 26px;
+		padding-top: 4%;
+		height:20%;
+	}
+	
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.label{
+		width: 320px;
+		margin-top: 200px;
+
+	}
+
+	hr{
+		width:260px;
+	}
+
+	#autopark-list{
+		margin-top: 100px;
+		margin-bottom: 100px;
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+
+	.item{
+		width:210px;
+		height:190px;
+		margin:15px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 18px;
+		padding-top: 2%;
+		height:20%;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.label{
+		width: 300px;
+		margin-top: 150px;
+
+	}
+
+	hr{
+		width:230px;
+	}
+
+	#autopark-list{
+		margin-top: 70px;
+		margin-bottom: 70px;
+		padding-left: 145px;
+		padding-right: 145px;
+	}
+
+	.item{
+		width:210px;
+		height:190px;
+		margin:10px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 18px;
+		padding-top: 2%;
+		height:20%;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px){
+	.label{
+		width: 250px;
+		margin-top: 100px;
+
+	}
+
+	hr{
+		width:200px;
+	}
+
+	#autopark-list{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+
+	.item{
+		width:150px;
+		height:130px;
+		margin:5px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 12px;
+		padding-top: 1%;
+		height:20%;
+	}		
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+	.label{
+		width: 250px;
+		margin-top: 100px;
+
+	}
+
+	hr{
+		width:200px;
+	}
+
+	#autopark-list{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+
+	.item{
+		width:150px;
+		height:130px;
+		margin:5px;
+	}
+
+	.item .img{
+		height:76%;
+	}
+
+	.item .name{
+		font-size: 12px;
+		padding-top: 1%;
+		height:20%;
+	}
+}

@@ -1,0 +1,223 @@
+@media(min-width:4000px){
+	.label{
+		margin-top: 600px;
+		width: 1000px;
+
+	}
+
+
+	hr{
+		width:800px;
+	}
+
+	#faq-list li{
+		font-size: 80px;
+	}
+
+
+	#faq-list ol li .answer{
+		border: 10px solid #a91d11;	
+		min-height: 60px;
+		width: 1600px;
+		padding: 2%;
+		font-size: 60px;	
+	}
+}
+
+@media(min-width: 3000px) and (max-width:3999px){
+	.label{
+		margin-top: 600px;
+		width: 1000px;
+
+	}
+
+
+	hr{
+		width:800px;
+	}
+
+	#faq-list li{
+		font-size: 70px;
+	}
+
+
+	#faq-list ol li .answer{
+		border: 10px solid #a91d11;	
+		min-height: 60px;
+		width: 1500px;
+		padding: 2%;
+		font-size: 50px;	
+	}
+}
+
+@media(min-width: 2000px) and (max-width: 2999px){
+	.label{
+		margin-top: 400px;
+		width: 800px;
+
+	}
+
+
+	hr{
+		width:600px;
+	}
+
+	#faq-list li{
+		font-size: 50px;
+		margin-bottom: 7%;
+	}
+
+
+	#faq-list ol li .answer{
+		border: 8px solid #a91d11;	
+		min-height: 100px;
+		width: 1300px;
+		padding: 2%;
+		font-size: 40px;	
+	}
+}
+
+@media (min-width: 1800px) and (max-width: 1999px){
+	.label{
+		margin-top: 250px;
+		width: 600px;
+
+	}
+
+
+	hr{
+		width:450px;
+	}
+
+	#faq-list li{
+		font-size: 35px;
+		margin-bottom: 5%;
+	}
+
+
+	#faq-list ol li .answer{
+		border: 6px solid #a91d11;	
+		min-height: 60px;
+		width: 800px;
+		padding: 2%;
+		font-size: 25px;	
+	}
+	
+} 
+
+@media (min-width: 1600px) and (max-width:1799px){
+	
+}
+
+@media (min-width: 1200px) and (max-width:1599px){
+	.label{
+		
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.label{
+		width: 350px;
+	}
+
+
+	hr{
+		width:300px;
+	}
+
+	#faq-list li{
+		font-size: 20px;
+		margin-bottom: 6%;
+	}
+
+
+	#faq-list ol li .answer{
+		border: 3px solid #a91d11;	
+		min-height: 40px;
+		width: 500px;
+		padding: 2%;
+		font-size: 18px;	
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.label{
+		margin-top: 150px;
+		width: 300px;
+	}
+
+
+	hr{
+		width:250px;
+	}
+
+	#faq-list li{
+		font-size: 16px;
+		margin-bottom: 6%;
+	}
+
+
+	#faq-list ol li .answer{
+		border: 3px solid #a91d11;	
+		min-height: 30px;
+		width: 450px;
+		padding: 2%;
+		font-size: 14px;	
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px){
+	.label{
+		margin-top: 100px;
+		width: 250px;
+	}
+
+
+	hr{
+		width:200px;
+	}
+
+	#faq-list li{
+		font-size: 16px;
+		margin-bottom: 6%;
+	}
+
+
+	#faq-list ol li .answer{
+		border: 2px solid #a91d11;	
+		min-height: 30px;
+		width: 400px;
+		padding: 2%;
+		font-size: 14px;	
+	}	
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+	.label{
+		margin-top: 100px;
+		width: 250px;
+	}
+
+
+	hr{
+		width:200px;
+	}
+
+	#faq-list li{
+		font-size: 16px;
+		margin-bottom: 6%;
+	}
+
+
+	#faq-list ol li .answer{
+		border: 2px solid #a91d11;	
+		min-height: 30px;
+		width: 400px;
+		padding: 2%;
+		font-size: 14px;	
+	}	
+}

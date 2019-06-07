@@ -1,0 +1,334 @@
+@media(min-width:4000px){
+	.label{
+		margin-top: 600px;
+		width: 800px;
+	}
+
+	hr{
+		width:600px;
+	}
+
+	#comments{
+		margin: 150px 0;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 120px auto;
+		min-height: 150px;
+		height:400px;
+		width:1800px;
+		border: 10px solid #a91d11;
+	}
+
+	.comment-item .icon{
+		width:10%;
+		margin-right: 5%;
+	}
+
+	.comment-item .text .name{
+		font-size: 52px;
+	}
+
+	.comment-item .text .comment-text{
+		padding: 2% 0;
+		font-size: 50px;	
+	}
+}
+
+@media(min-width: 3000px) and (max-width:3999px){
+	.label{
+		margin-top: 600px;
+		width: 750px;
+	}
+
+	hr{
+		width:550px;
+	}
+
+	#comments{
+		margin: 150px 0;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 100px auto;
+		min-height: 150px;
+		height:400px;
+		width:1800px;
+		border: 10px solid #a91d11;
+	}
+
+	.comment-item .icon{
+		width:10%;
+		margin-right: 5%;
+	}
+
+	.comment-item .text .name{
+		font-size: 50px;
+	}
+
+	.comment-item .text .comment-text{
+		padding: 2% 0;
+		font-size: 48px;	
+	}
+
+
+}
+
+@media(min-width: 2000px) and (max-width: 2999px){
+	.label{
+		margin-top: 400px;
+		width: 680px;
+	}
+
+	hr{
+		width:520px;
+	}
+
+	#comments{
+		margin: 100px 0;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 70px auto;
+		min-height: 150px;
+		height:250px;
+		width:1350px;
+		border: 8px solid #a91d11;
+	}
+
+	.comment-item .icon{
+		width:10%;
+		margin-right: 5%;
+	}
+
+	.comment-item .text .name{
+		font-size: 36px;
+	}
+
+	.comment-item .text .comment-text{
+		padding: 2% 0;
+		font-size: 34px;	
+	}
+
+}
+
+@media (min-width: 1800px) and (max-width: 1999px){
+	.label{
+		margin-top: 250px;
+		width: 450px;
+	}
+
+	hr{
+		width:350px;
+	}
+
+	#comments{
+		margin: 60px 0;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 50px auto;
+		min-height: 150px;
+		height:210px;
+		width:1000px;
+		border: 6px solid #a91d11;
+	}
+
+	.comment-item .icon{
+		width:10%;
+		margin-right: 5%;
+	}
+
+	.comment-item .text .name{
+		font-size: 27px;
+	}
+
+	.comment-item .text .comment-text{
+		padding: 2% 0;
+		font-size: 25px;	
+	}
+	
+} 
+
+@media (min-width: 1600px) and (max-width:1799px){
+
+}
+
+@media (min-width: 1200px) and (max-width:1599px){
+	.label{
+		margin-top: 200px;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 35px auto;
+		min-height: 150px;
+		height:130px;
+		width:750px;
+		border: 4px solid #a91d11;
+	}
+
+	.comment-item .text .name{
+		font-size: 20px;
+	}
+
+	.comment-item .text .comment-text{
+		font-size: 18px;	
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.label{
+		margin-top: 200px;
+		width: 250px;
+	}
+
+	hr{
+		width:200px;
+	}
+
+	#comments{
+		margin: 40px 0;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 30px auto;
+		min-height: 60px;
+		height:110px;
+		width:600px;
+		border: 3px solid #a91d11;
+	}
+
+	.comment-item .icon{
+		width:10%;
+		margin-right: 5%;
+	}
+
+	.comment-item .text .name{
+		font-size: 16px;
+	}
+
+	.comment-item .text .comment-text{
+		font-size: 14px;	
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.label{
+		margin-top: 150px;
+		width: 220px;
+	}
+
+	hr{
+		width:180px;
+	}
+
+	#comments{
+		margin: 30px 0;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 20px auto;
+		min-height: 60px;
+		height:100px;
+		width:580px;
+		border: 3px solid #a91d11;
+	}
+
+	.comment-item .icon{
+		width:10%;
+		margin-right: 5%;
+	}
+
+	.comment-item .text .name{
+		font-size: 14px;
+	}
+
+	.comment-item .text .comment-text{
+		font-size: 12px;	
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px){
+	.label{
+		margin-top: 100px;
+		width: 170px;
+	}
+
+	hr{
+		width:140px;
+	}
+
+	#comments{
+		margin: 20px 0;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 15px auto;
+		min-height: 60px;
+		height:90px;
+		width:400px;
+		border: 2px solid #a91d11;
+	}
+
+	.comment-item .icon{
+		width:10%;
+		margin-right: 5%;
+	}
+
+	.comment-item .text .name{
+		font-size: 12px;
+	}
+
+	.comment-item .text .comment-text{
+		font-size: 10px;	
+	}		
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+	.label{
+		margin-top: 100px;
+		width: 170px;	
+	}
+
+	hr{
+		width:140px;
+	}
+
+	#comments{
+		margin: 20px 0;
+	}
+
+	.comment-item{
+		padding: 2%;
+		margin: 15px auto;
+		min-height: 60px;
+		height:90px;
+		width:400px;
+		border: 2px solid #a91d11;
+	}
+
+	.comment-item .icon{
+		width:10%;
+		margin-right: 5%;
+	}
+
+	.comment-item .text .name{
+		font-size: 12px;
+	}
+
+	.comment-item .text .comment-text{
+		font-size: 10px;	
+	}
+}

@@ -1,0 +1,501 @@
+@media(min-width:4000px){
+	.label{
+		margin-top: 600px;
+		width:850px;
+	}
+
+	hr{
+		width:650px;
+	}
+
+	.contact{
+		height:70px;
+		margin: 70px 0;
+		font-size: 60px;	
+	}
+
+	.contact div{
+		width:80px;
+		margin-right: 60px;
+	}
+
+	#contacts-auto{
+		margin-top: 600px;
+		margin-bottom: 450px;
+	}
+
+	#work-auto div{
+		height:70px;
+	}
+
+	#email-auto div{
+		height:60px;
+	}
+
+	#form-and-map{
+		height:1200px;
+		margin-bottom: 100px;
+	}
+	
+	.field-cont{
+		margin:60px auto;
+		height:100px;
+		width:800px;
+		border-radius: 18px;
+	}
+
+	.field-cont div{
+		width:60px;
+	}
+
+	.field-cont input{
+		width:650px;
+		font-size: 40px;
+	}
+
+	#field-name div{
+		margin-left:30px;
+		margin-right: 30px;
+	}
+
+	#field-mail div{
+		margin-left:30px;
+		margin-right: 30px;
+	}
+
+	#field-phone div{
+		margin-left:30px;
+		margin-right: 30px;
+	}
+
+	.request-button{
+		margin:90px auto;
+	}
+}
+
+@media(min-width: 3000px) and (max-width:3999px){
+	.label{
+		margin-top: 600px;
+		width:800px;
+	}
+
+	hr{
+		width:600px;
+	}
+
+	.contact{
+		height:70px;
+		margin: 70px 0;
+		font-size: 60px;	
+	}
+
+	.contact div{
+		width:80px;
+		margin-right: 60px;
+	}
+
+	#contacts-auto{
+		margin-top: 600px;
+		margin-bottom: 450px;
+	}
+
+	#work-auto div{
+		height:70px;
+	}
+
+	#email-auto div{
+		height:60px;
+	}
+
+	#form-and-map{
+		height:1200px;
+		margin-bottom: 100px;
+	}
+	
+	.field-cont{
+		margin:60px auto;
+		height:100px;
+		width:800px;
+		border-radius: 18px;
+	}
+
+	.field-cont div{
+		width:60px;
+	}
+
+	.field-cont input{
+		width:650px;
+		font-size: 40px;
+	}
+
+	#field-name div{
+		margin-left:30px;
+		margin-right: 30px;
+	}
+
+	#field-mail div{
+		margin-left:30px;
+		margin-right: 30px;
+	}
+
+	#field-phone div{
+		margin-left:30px;
+		margin-right: 30px;
+	}
+
+	.request-button{
+		margin:90px auto;
+	}
+}
+
+@media(min-width: 2000px) and (max-width: 2999px){
+	.label{
+		margin-top: 400px;
+		width:700px;
+	}
+
+	hr{
+		width:520px;
+	}
+
+	.contact{
+		height:50px;
+		margin: 50px 0;
+		font-size: 40px;	
+	}
+
+	.contact div{
+		width:60px;
+		margin-right: 30px;
+	}
+
+	#contacts-auto{
+		margin-top: 350px;
+		margin-bottom: 300px;
+	}
+
+	#work-auto div{
+		height:50px;
+	}
+
+	#email-auto div{
+		height:50px;
+	}
+
+	#form-and-map{
+		height:800px;
+		margin-bottom: 150px;
+	}
+	
+	.field-cont{
+		margin:40px auto;
+		height:65px;
+		width:500px;
+		border-radius: 15px;
+	}
+
+	.field-cont div{
+		width:7.5%;
+		margin-left:3.5%;
+		margin-right: 3.5%;
+	}
+
+	.field-cont input{
+		width:80%;
+		font-size: 30px;
+	}
+
+	.request-button{
+		margin:60px auto;
+	}
+}
+
+@media (min-width: 1800px) and (max-width: 1999px){
+	.label{
+		margin-top: 250px;
+	}
+	
+
+} 
+
+@media (min-width: 1600px) and (max-width:1799px){
+	
+}
+
+@media (min-width: 1200px) and (max-width:1599px){
+	.label{
+		width:400px;
+	}
+
+	hr{
+		width:330px;
+	}
+
+	#contacts-auto{
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+
+	#form-and-map{
+		height:500px;
+		margin-bottom: 100px;
+	}
+
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.label{
+		width:300px;
+	}
+
+	hr{
+		width:250px;
+	}
+
+	.contact{
+		height:20px;
+		margin: 30px 0;
+		font-size: 16px;	
+	}
+
+	.contact div{
+		width:20px;
+		margin-right: 10px;
+	}
+
+	#contacts-auto{
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+
+	#work-auto div{
+		height:20px;
+	}
+
+	#email-auto div{
+		height:20px;
+	}
+
+	#form-and-map{
+		height:450px;
+		margin-bottom: 100px;
+	}
+	
+	.field-cont{
+		margin:15px auto;
+		height:32px;
+		width:180px;
+		border-radius: 5px;
+	}
+
+	.field-cont div{
+		width:7.5%;
+		margin-left:3.5%;
+		margin-right: 3.5%;
+	}
+
+	.field-cont input{
+		width:80%;
+		font-size: 12px;
+	}
+
+	.request-button{
+		margin:25px auto;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.label{
+		margin-top: 150px;
+		width: 250px;
+	}
+
+	hr{
+		width:200px;
+	}
+
+	.contact{
+		height:20px;
+		margin: 30px 0;
+		font-size: 16px;	
+	}
+
+	.contact div{
+		width:20px;
+		margin-right: 10px;
+	}
+
+	#contacts-auto{
+		margin-top: 150px;
+		margin-bottom: 130px;
+	}
+
+	#work-auto div{
+		height:20px;
+	}
+
+	#email-auto div{
+		height:20px;
+	}
+
+	#form-and-map{
+		height:400px;
+		margin-bottom: 100px;
+	}
+	
+	.field-cont{
+		margin:15px auto;
+		height:32px;
+		width:180px;
+		border-radius: 5px;
+	}
+
+	.field-cont div{
+		width:7.5%;
+		margin-left:3.5%;
+		margin-right: 3.5%;
+	}
+
+	.field-cont input{
+		width:80%;
+		font-size: 12px;
+	}
+
+	.request-button{
+		margin:25px auto;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px){
+	.label{
+		margin-top: 100px;
+		width: 200px;
+	}
+
+	hr{
+		width:160px;
+	}
+
+	.contact{
+		height:20px;
+		margin: 30px 0;
+		font-size: 16px;	
+	}
+
+	.contact div{
+		width:20px;
+		margin-right: 10px;
+	}
+
+	#contacts-auto{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	#work-auto div{
+		height:20px;
+	}
+
+	#email-auto div{
+		height:20px;
+	}
+
+	#form-and-map{
+		height:280px;
+		margin-bottom: 50px;
+	}
+	
+	.field-cont{
+		margin:10px auto;
+		height:32px;
+		width:180px;
+		border-radius: 5px;
+	}
+
+	.field-cont div{
+		width:7.5%;
+		margin-left:3.5%;
+		margin-right: 3.5%;
+	}
+
+	.field-cont input{
+		width:80%;
+		font-size: 12px;
+	}
+
+	.request-button{
+		margin:15px auto;
+	}		
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+	.label{
+		margin-top: 100px;
+		width:200px;
+	}
+
+	.label{
+		margin-top: 100px;
+		width: 200px;
+	}
+
+	hr{
+		width:160px;
+	}
+
+	.contact{
+		height:20px;
+		margin: 30px 0;
+		font-size: 16px;	
+	}
+
+	.contact div{
+		width:20px;
+		margin-right: 10px;
+	}
+
+	#contacts-auto{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	#work-auto div{
+		height:20px;
+	}
+
+	#email-auto div{
+		height:20px;
+	}
+
+	#form-and-map{
+		height:280px;
+		margin-bottom: 50px;
+	}
+	
+	.field-cont{
+		margin:10px auto;
+		height:32px;
+		width:180px;
+		border-radius: 5px;
+	}
+
+	.field-cont div{
+		width:7.5%;
+		margin-left:3.5%;
+		margin-right: 3.5%;
+	}
+
+	.field-cont input{
+		width:80%;
+		font-size: 12px;
+	}
+
+	.request-button{
+		margin:15px auto;
+	}		
+}

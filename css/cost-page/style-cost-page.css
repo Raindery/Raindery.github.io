@@ -1,0 +1,64 @@
+.label{
+	margin-top: 200px;
+	width:445px;
+	text-transform: none;
+	text-align: center;
+}
+
+hr{
+	width:300px;
+
+}
+
+#groups{
+	width:100%;
+	height:auto;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+#groups .card{
+	width:300px;
+	height:400px;
+	margin: 300px auto;
+}
+
+.card h2{
+	text-align: center;
+	font-size: 32px;
+	margin: 20px 0px;
+}
+
+.card hr{
+	width: 200px;
+	margin-top: 0px;
+}
+
+
+.card p{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin: 20px 0px;
+}
+
+.card h3{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.card .request-button{
+	width: 140px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top:15px;
+	font-size: 22px;
+}
+
+
+
+
+
+
+

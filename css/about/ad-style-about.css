@@ -1,0 +1,455 @@
+@media(min-width:4000px){
+	.label-for-about{
+		font-size: 120px;
+		margin-bottom:80px;
+	}
+
+	#about-us p{
+		margin:100px 0px;
+		font-size:80px;
+		line-height: 120px;
+	}
+
+	#about-us .label{
+		margin-top: 600px;
+		width:900px;
+	}
+
+	hr{
+		width:700px;
+	}
+
+
+	#how-study hr{
+		
+		width:650px;
+	}
+
+	#how-study{
+		margin-top: 600px;
+	}
+
+	#what-study{
+		margin-top: 600px;
+	}
+
+	#what-study hr{
+		
+		width:650px;
+	}
+
+	#what{
+		margin-top: 600px;
+		margin-bottom: 400px;
+	}
+
+	#what hr{
+		
+		width:650px;
+	}
+
+
+
+}
+
+@media(min-width: 3000px) and (max-width:3999px){
+	.label-for-about{
+		font-size: 100px;
+		margin-bottom:70px;
+	}
+
+	#about-us p{
+		margin:100px 0px;
+		font-size:50px;
+		line-height: 80px;
+	}
+
+	#about-us .label{
+		margin-top: 600px;
+		width:750px;
+	}
+
+	hr{
+		width:550px;
+	}
+
+
+	#how-study hr{
+		
+		width:550px;
+	}
+
+	#how-study{
+		margin-top: 600px;
+	}
+
+	#what-study{
+		margin-top: 450px;
+	}
+
+	#what-study hr{
+		
+		width:550px;
+	}
+
+	#what{
+		margin-top: 450px;
+		margin-bottom: 300px;
+	}
+
+	#what hr{
+		
+		width:550px;
+	}
+}
+
+@media(min-width: 2000px) and (max-width: 2999px){
+	.label-for-about{
+		font-size: 80px;
+		margin-bottom:65px;
+	}
+
+	#about-us p{
+		margin:65px 0px;
+		font-size:45px;
+		line-height: 75px;
+	}
+
+	#about-us .label{
+		margin-top: 400px;
+		width:550px;
+	}
+
+	hr{
+		width:430px;
+	}
+
+
+	#how-study hr{
+		width:420px;
+	}
+
+	#how-study{
+		margin-top: 350px;
+	}
+
+	#what-study{
+		margin-top: 350px;
+	}
+
+	#what-study hr{
+		width:420px;
+	}
+
+	#what{
+		margin-top: 350px;
+		margin-bottom: 350px;
+	}
+
+	#what hr{
+		
+		width:420px;
+	}
+}
+
+@media (min-width: 1800px) and (max-width: 1999px){
+	#about-us .label{
+		margin-top: 250px;
+		width:420px;
+	}
+
+	hr{
+		width:350px;
+	}
+
+
+	.label-for-about{
+		font-size: 50px;
+		margin-bottom:45px;
+	}
+
+	#about-us p{
+		margin:50px 0px;
+		font-size:30px;
+		line-height: 48px;
+	}
+
+	#how-study{
+		margin-top: 200px;
+	}
+
+	#how-study hr{
+		width:320px;
+	}
+
+	#what-study{
+		margin-top: 150px;
+	}
+
+	#what-study hr{
+		width:320px;
+	}
+
+	#what{
+		margin-top: 150px;
+		margin-bottom: 200px;
+	}
+
+	#what hr{
+		
+		width:320px;
+	}
+	
+} 
+
+@media (min-width: 1600px) and (max-width:1799px){
+	#what{
+		margin-bottom: 150px;
+	}
+	
+}
+
+@media (min-width: 1200px) and (max-width:1599px){
+
+	.label-for-about{
+		font-size: 38px;
+		margin-bottom:30px;
+	}
+
+	#about-us .label{
+		margin-top: 200px;
+		width:320px;
+	}
+
+	#about-us p{
+		margin:40px 0px;
+		font-size:20px;
+		line-height: 32px;
+	}
+
+	#how-study{
+		margin-top: 150px;
+	}
+
+	#what-study{
+		margin-top: 150px;
+	}
+
+	#what{
+		margin-top: 150px;
+		margin-bottom: 120px;
+	}
+
+	#how-study hr{
+		width:220px;
+	}
+
+	#what-study hr{
+		width:220px;
+	}
+
+	#what hr{
+		
+		width:220px;
+	}
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#about-us .label{
+		margin-top: 200px;
+		width:250px;
+	}
+
+	hr{
+		width:200px;
+	}
+
+
+	.label-for-about{
+		font-size: 28px;
+		margin-bottom:28px;
+	}
+
+	#about-us p{
+		margin:25px 0px;
+		font-size:17px;
+		line-height: 26px;
+	}
+
+	#how-study{
+		margin-top: 120px;
+	}
+
+	#what-study{
+		margin-top: 120px;
+	}
+
+	#what{
+		margin-top: 120px;
+		margin-bottom: 80px;
+	}
+
+	#how-study hr{
+		width:180px;
+	}
+
+	#what-study hr{
+		width:180px;
+	}
+
+	#what hr{
+		
+		width:180px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	#about-us .label{
+		margin-top: 150px;
+		width:200px;
+	}
+
+	hr{
+		width:160px;
+	}
+
+
+	.label-for-about{
+		font-size: 26px;
+		margin-bottom:15px;
+	}
+
+	#about-us p{
+		margin:22px 0px;
+		font-size:16px;
+		line-height: 24px;
+	}
+
+	#how-study{
+		margin-top: 100px;
+	}
+
+	#what-study{
+		margin-top: 100px;
+	}
+
+	#what{
+		margin-top: 100px;
+		margin-bottom: 80px;
+	}
+
+	#how-study hr{
+		width:160px;
+	}
+
+	#what-study hr{
+		width:160px;
+	}
+
+	#what hr{
+		
+		width:160px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px){
+
+	#about-us .label{
+		margin-top: 100px;
+		width:150px;
+	}
+
+	hr{
+		width:120px;
+	}
+
+
+	.label-for-about{
+		font-size: 20px;
+		margin-bottom:12px;
+	}
+
+	#about-us p{
+		margin:15px 0px;
+		font-size:14px;
+		line-height: 22px;
+	}
+
+	#how-study{
+		margin-top: 80px;
+	}
+
+	#what-study{
+		margin-top: 80px;
+	}
+
+	#what{
+		margin-top: 80px;
+		margin-bottom: 60px;
+	}
+
+	#how-study hr{
+		width:130px;
+	}
+
+	#what-study hr{
+		width:130px;
+	}
+
+	#what hr{
+		width:130px;
+	}		
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+	#about-us .label{
+		margin-top: 100px;
+		width:150px;
+	}
+
+	hr{
+		width:120px;
+	}
+
+
+	.label-for-about{
+		font-size: 20px;
+		margin-bottom:12px;
+	}
+
+	#about-us p{
+		margin:15px 0px;
+		font-size:14px;
+		line-height: 22px;
+	}
+
+	#how-study{
+		margin-top: 80px;
+	}
+
+	#what-study{
+		margin-top: 80px;
+	}
+
+	#what{
+		margin-top: 80px;
+		margin-bottom: 60px;
+	}
+
+	#how-study hr{
+		width:130px;
+	}
+
+	#what-study hr{
+		width:130px;
+	}
+
+	#what hr{
+		width:130px;
+	}
+}

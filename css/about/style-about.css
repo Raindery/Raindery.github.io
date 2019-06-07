@@ -1,0 +1,67 @@
+.label-for-about{
+	font-size: 48px;
+	text-align: left;
+	color:white;
+	margin-bottom:40px;
+
+
+}
+
+#about-us p{
+	margin:50px 0px;
+	color:white;
+	text-align: left;
+	font-size:25px;
+	line-height: 40px;
+}
+
+#about-us{
+	width:100%;
+	height:auto;
+}
+
+#about-us .label{
+	margin-top: 200px;
+	width:350px;
+	text-transform: none;
+}
+
+hr{
+	width:250px;
+}
+
+
+#how-study hr{
+	margin-top: 20px;
+	width:250px;
+}
+
+
+
+
+#how-study{
+	margin-top: 200px;
+}
+
+#how-study hr{
+	margin:0;
+}
+
+#what-study{
+	margin-top: 200px;
+}
+
+#what-study hr{
+	margin:0;
+}
+
+#what{
+	margin-top: 200px;
+}
+
+#what hr{
+	margin:0;
+}
+
+
+
