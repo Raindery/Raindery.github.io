@@ -19,6 +19,12 @@
 	height: 55px;
 }
 
+.logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 #header-menu{
 	position: relative;
 	float:left;

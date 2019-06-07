@@ -23,7 +23,7 @@
 		<header id="header-container">
 			<div id="header">
 				<div class="logo">
-					
+					<a href="html/index.html"></a>
 				</div>
 
 				<div id="header-menu">
@@ -75,20 +75,20 @@
 
 			<div id="form-and-map">
 				<div id="form">
-					<form method="post">
+					<form method="post" action="../rts/mail.php" class="form-validate">
 						<div class="field-cont" id="field-name">
 							<div></div>
-							<input type="text" value="Введите Ваше имя" name="contactName" onfocus="if(this.value == 'Введите Ваше имя'){this.value='';}" onblur="if(this.value == ''){this.value = 'Введите Ваше имя';} ">
+							<input type="text" placeholder="Введите Ваше имя"  name="contactName" data-validate>
 						</div>
 
 						<div class="field-cont" id="field-mail">
 							<div></div>
-							<input type="text" value="Введите Вашу почту" name="contactMail" onfocus="if(this.value== 'Введите Вашу почту'){this.value='';}" onblur="if(this.value == ''){this.value = 'Введите Вашу почту';} ">
+							<input type="email" placeholder="Введите Вашу почту" name="contactMail" data-validate>
 						</div>
 
 						<div class="field-cont" id="field-phone">
 							<div></div>
-							<input type="text" value="Введите Ваш телефон" name="contactPhone" onfocus="if(this.value=='Введите Ваш телефон'){this.value='';}" onblur="if(this.value == ''){this.value = 'Введите Ваш телефон';} ">
+							<input  type="tel" placeholder="Введите Ваш телефон" name="contactPhone" data-validate>
 						</div>
 						<input type="submit" class="request-button" value="Отправить" name="doContact">
 					</form>
@@ -134,9 +134,34 @@
 					<div></div>
 					<p>8 (800) 535 35 35</p>
 				</div>					
-				<div class="request-button">Оставить заявку</div>
+				<div class="request-button"><a href="contact-page.html#form-and-map">Оставить заявку</a></div>
 			</div>
 		</div>
-	</footer>	
+	</footer>
+
+	<script src="../js/jquery.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.form-validate').submit(function (){
+
+
+			var form = $(this);
+			var field = [];
+			form.find('input[data-validate]').each(function (){
+				field.push('input[data-validate]');
+				var value = $(this).val(),
+				line = $(this).closest('.field-cont');
+				for(var i = 0; i<field.length; i++){
+					if(!value){
+						line.addClass('wrong');
+						setTimeout(function(){
+							line.removeClass('wrong')}.bind(this),2000);
+							event.preventDefault();
+						}
+					}
+				});
+			});
+		});
+	</script>	
 </body>
 </html>
